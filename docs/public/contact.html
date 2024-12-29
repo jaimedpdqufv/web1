@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Acerca de</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Menú lateral -->
+    <nav class="sidebar">
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+        <li><a href="degree.html">Grado</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+        <li><a href="net.html">Compañeros</a></li>
+        <li><a href="topic.html">Tema de interés</a></li>
+      </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="main-content">
+      <header>
+        <h1>Contacto</h1>
+      </header>
+      <section id="Contacto">
+        <h2>Contacto</h2>
+        <p>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                  <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="user_name" />
+                  </li>
+                  <li>
+                    <label for="Primer Apellido">Primer Apellido:</label>
+                    <input type="text" id="Primer Apellido" name="user_name"/>
+                  </li>
+                  <li>
+                    <label for="Segundo Apellido">Segundo Apellido:</label>
+                    <input type="text" id="Segundo Apellido" name="user_name"/>
+                  </li>
+                  <li>
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail" name="user_mail" />
+                  </li>
+                  <li>
+                    <label for="msg">Mensaje:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                  </li>
+                  <li class="button">
+                    <button type="submit">Envíe su mensaje</button>
+                  </li>
+                </ul>
+        </p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
