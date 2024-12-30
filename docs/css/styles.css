@@ -12,7 +12,7 @@ body, html {
   
   .sidebar {
     width: 250px;
-    background-color: #333;
+    background-color: #033B62;
     color: white;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
@@ -44,6 +44,16 @@ body, html {
   .sidebar ul li a:hover {
     background-color: #555;
   }
+  .sidebar ul {
+    flex-grow: 1;
+  }
+  
+  .sidebar-image {
+    width: 100%; 
+    margin-top: 400px; 
+    margin-bottom: 20px; 
+    padding-bottom: 30px; 
+  }
   
   
   .main-content {
@@ -53,7 +63,7 @@ body, html {
   
   header h1 {
     margin: 0;
-    background-color: #1a1a2e;
+    background-color: #033B62;
     color: white;
     padding: 20px;
     text-align: center;
