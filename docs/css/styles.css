@@ -98,4 +98,34 @@ body, html {
     border-radius: 4px;
     cursor: pointer;
   }
+  .dropdown {
+    margin: 20px 0;
+  }
   
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .asignaturas-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .asignaturas-list li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para cuando el ratón pasa sobre una opción */
+  .asignaturas-list li:hover {
+    background-color: #f1f1f1;
+    border-color: #888;
+    cursor: pointer;
+  }
