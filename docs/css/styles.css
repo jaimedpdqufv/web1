@@ -129,3 +129,16 @@ body, html {
     border-color: #888;
     cursor: pointer;
   }
+
+  .image-container {
+    text-align: center;
+}
+
+img {
+    max-width: 90%; 
+    height: auto;  
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
