@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    text-align: justify;
   }
   
   .container {
@@ -123,7 +124,6 @@ body, html {
     background-color: #f9f9f9;
   }
   
-  /* Estilo para cuando el ratón pasa sobre una opción */
   .asignaturas-list li:hover {
     background-color: #f1f1f1;
     border-color: #888;
